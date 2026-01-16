@@ -4,6 +4,9 @@
   font-style: normal;
   
 }
+body{
+    backgroun
+}
 .navber{
   display: flex;  
 justify-content: space-around;
@@ -12,8 +15,9 @@ align-items: center;
 }
 .navber-title{
 margin-left: 40px;
-
-
+font-size: 24px;
+font-weight: 600;
+color: #3a3a3a;
 }
 .list-item{
 display: flex;
@@ -21,9 +25,55 @@ list-style: none;
 gap: 30px;
 height: 36px; ;
 width: 463px; ;
+color: #3a3a3a;
 /*border: 1px solid aqua;*/
 
 }
 .list-item a{
     text-decoration: none;
 }
+.camra-section{
+display: flex;
+margin: 70px auto;
+margin-left: 100px;
+gap: 30px;
+
+}
+.banner-content{
+width: 582px;
+height:270px ;
+/*border: 1px solid aqua;*/
+/*margin: 165px 284px;*/
+margin-left: 50px;
+margin-top: 70px;
+}
+.banner-camra{
+/*border: 1px solid aqua;*/
+height:414px ;
+width: 440px;
+margin: 20px;
+margin-right: 100px;
+}
+.btn-sector{
+padding: 10px 10px;
+background-color: #E02C6D;
+border-radius: 20px ;
+margin: 10px;
+color: aliceblue;
+}
+.camra-title{
+font-size: 3.2rem;
+font-weight: 600;
+color: #3a3a3a;
+}
+.camra-discription{
+color: #3a3a3a;
+font-weight: 600;
+font-size: 1rem;
+}
+
+
+
+
+
+
