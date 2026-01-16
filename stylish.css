@@ -1,0 +1,29 @@
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+.navber{
+  display: flex;  
+justify-content: space-around;
+margin: 30px ;
+align-items: center;
+}
+.navber-title{
+margin-left: 40px;
+
+
+}
+.list-item{
+display: flex;
+list-style: none;
+gap: 30px;
+height: 36px; ;
+width: 463px; ;
+/*border: 1px solid aqua;*/
+
+}
+.list-item a{
+    text-decoration: none;
+}
