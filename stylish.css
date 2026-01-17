@@ -71,9 +71,114 @@ color: #3a3a3a;
 font-weight: 600;
 font-size: 1rem;
 }
+.images{
+    display: flex;
+    margin-left: 170px;
+    gap: 50px;
+    height:110px ;
+    width: 1110px;
+    justify-items: center;
+    margin-top: 30px;
+}
+.card-sector{
+display: flex;
+gap: 30px;
+flex-wrap: wrap;
+justify-content: center;
+}
 
 
 
 
+.card-section{
 
 
+
+}
+.card-head{
+    justify-content: c;
+    text-align: center;
+}
+.card-section{
+height: 476px;
+width: 329px;
+
+padding: 15px;
+box-shadow: chartreuse;
+}
+.card-section img{
+height: 256px;
+width: 300px;
+border-radius: 13px;
+}
+.card-price{
+font-size:24px ;
+font-weight: 200;
+color: #000000;
+}
+.card-discription{
+font-size: 14px;
+font-weight: 500;
+color: #3a3a3a;
+margin: 3px;
+}
+.see-more{
+color: #E02C6D;
+margin-left: 1100px;
+justify-items: center;
+}
+.see-more img{
+    color: #E02C6D;
+    margin-top: 2px;
+}
+.gear{
+    display: flex;
+justify-items: center;
+height: 270px;
+width: 1110px;
+
+margin: 50px 170px;
+gap: 96px;
+}
+.gear-item{
+height: 224px;
+width: 610px;
+
+
+
+}
+.gear-item p{
+font-size: 16px;
+font-weight: 500;
+color:#6c6c6c ;
+} .gear-item h1{
+font-size: 2.4rem;
+
+font-weight: 500;
+}
+.btn{
+background-color: #E02C6D;
+color: aliceblue;
+padding: 5px;
+}
+.footer-sec{
+height: 300px;
+width: auto;
+background-color: lightslategray;
+justify-content: center;
+margin-top: 50px;
+}
+.copywright{
+margin-top: 50px;
+text-align: center;
+
+}
+@media  screan and (width:576px) {
+    .banner-content{
+
+grid-template-columns: 1fr;
+
+
+
+    }
+}
